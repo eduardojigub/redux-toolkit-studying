@@ -1,4 +1,5 @@
 import './App.css';
+import ChangeColor from './components/ChangeColor';
 import Login from './components/Login.jsx';
 import Profile from './components/Profile.jsx';
 
@@ -7,6 +8,7 @@ function App() {
     <div className='App'>
       <Profile />
       <Login />
+      <ChangeColor />
     </div>
   );
 }

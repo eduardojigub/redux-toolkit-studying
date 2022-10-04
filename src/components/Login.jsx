@@ -25,7 +25,7 @@ const Login = () => {
           dispatch(logout());
         }}
       >
-        Login
+        Logout
       </button>
     </div>
   );
